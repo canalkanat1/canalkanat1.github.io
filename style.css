@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1c2d;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#progress {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+input {
+  margin-right: 8px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ffffff;
+  color: #0b1c2d;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}
